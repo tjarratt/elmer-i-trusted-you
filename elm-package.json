@@ -4,9 +4,10 @@
     "repository": "https://github.com/tjarratt/nope.git",
     "license": "MIT",
     "source-directories": [
-        "src"
+        "src",
+	"src/Ports"
     ],
-    "exposed-modules": [ "App" ],
+    "exposed-modules": [ "App", "Ports.LocalStorage" ],
     "native-modules": false,
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
