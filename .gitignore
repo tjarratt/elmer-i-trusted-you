@@ -1,0 +1,14 @@
+# elm-package generated files
+elm-stuff
+
+# elm-repl generated files
+repl-temp-*
+
+# elm-make generated files
+index.js
+wordgame.css
+tmp
+
+# npm files
+node_modules
+
