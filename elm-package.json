@@ -5,9 +5,9 @@
     "license": "MIT",
     "source-directories": [
         "src",
-	"src/Ports"
+	"src/Ports",
     ],
-    "exposed-modules": [ "App", "Ports.LocalStorage" ],
+    "exposed-modules": [ "App", "MyModule", "Ports.LocalStorage" ],
     "native-modules": false,
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
